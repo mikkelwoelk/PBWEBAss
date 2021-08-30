@@ -1,21 +1,52 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 *{
     padding: 0;
     margin: 0;
 }
 
 header{
-display: flex;
-align-items: center;
-justify-content: center;
 width: 100%;
 margin: 0 auto;
+padding: 40px 0;
 }
 
 header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     list-style: none;
     width: 900px;
+    margin: 0 auto;
 }
 
 header li{
     display: inline;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(53, 53, 53);
+    transition: color ease-in-out .25s;
+    font-size: 25px;
+}
+
+a:hover{
+    color: rgb(70, 162, 255);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+img{
+    pointer-events: none;
 }
