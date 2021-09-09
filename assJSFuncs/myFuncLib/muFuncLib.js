@@ -2,7 +2,7 @@
 const play = function () {
     let x = Math.random();
     x = Math.floor(x * 2 + 1);          // Altering the multiplier number (in this case '2') will alter how many 'sides' it will have to choose from.
-    return x;                           // 2 = coinflip | 6 = dice throw | 36 = roulette
+    return x;                           // 2 = coinflip | 6 = dice throw | 37 = roulette
 }
 
 play();
